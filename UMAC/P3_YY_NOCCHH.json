@@ -1,5 +1,5 @@
 {
-  "nextId": 3015,
+  "nextId": 3018,
   "arena": {
     "shape": "circle",
     "width": 600,
@@ -1518,7 +1518,7 @@
           "opacity": 100,
           "style": "outline",
           "rotation": 0,
-          "text": "3.短火(水)DB + 水(火)方塊準備判定\n   火D往左前方移動\n   火H往左方移動\n   火T照圖上站",
+          "text": "3.短火(水)DB + 水(火)方塊準備判定\n   火D往左前方移動\n   火H跟人群站\n   火T照圖上站",
           "stroke": "#40352c",
           "x": -235,
           "y": 198,
@@ -1577,25 +1577,9 @@
           "height": 32,
           "opacity": 100,
           "rotation": 0,
-          "x": -281,
-          "y": 44,
+          "x": -192,
+          "y": -162,
           "id": 2324
-        },
-        {
-          "opacity": 100,
-          "type": "icon",
-          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215902_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "混沌の炎",
-          "iconId": 215902,
-          "maxStacks": 0,
-          "x": 13.6,
-          "y": -17.6,
-          "id": 2325,
-          "pinned": true,
-          "positionParentId": 2324
         },
         {
           "type": "party",
@@ -1710,20 +1694,6 @@
           "type": "text",
           "align": "center",
           "fontSize": 25,
-          "color": "#00e622",
-          "opacity": 100,
-          "style": "outline",
-          "rotation": 0,
-          "text": "火H往左",
-          "stroke": "#40352c",
-          "x": -354,
-          "y": 54,
-          "id": 2337
-        },
-        {
-          "type": "text",
-          "align": "center",
-          "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
           "style": "outline",
@@ -1786,48 +1756,20 @@
           "id": 2345
         },
         {
-          "type": "draw",
-          "points": [
-            0.5,
-            -0.5,
-            0.24647887323943662,
-            -0.2862595419847328,
-            -0.1056338028169014,
-            0.24045801526717558,
-            -0.31690140845070425,
-            0.4770992366412214,
-            -0.3732394366197183,
-            0.5,
-            -0.5,
-            0.2862595419847328
-          ],
-          "x": -228.5,
-          "y": -72.5,
-          "width": 71,
-          "height": 131,
-          "rotation": 0,
-          "brushSize": 8,
-          "color": "#00e622",
           "opacity": 100,
-          "id": 2718
-        },
-        {
-          "type": "draw",
-          "points": [
-            -0.5,
-            0.5,
-            0.5,
-            -0.5
-          ],
-          "x": -239,
-          "y": -6.5,
-          "width": 30,
-          "height": 7,
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215902_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
           "rotation": 0,
-          "brushSize": 8,
-          "color": "#00e622",
-          "opacity": 100,
-          "id": 2719
+          "name": "混沌の炎",
+          "iconId": 215902,
+          "maxStacks": 0,
+          "x": 13.6,
+          "y": -17.6,
+          "id": 3015,
+          "positionParentId": 2324,
+          "pinned": true
         }
       ]
     },
@@ -2126,20 +2068,6 @@
           "id": 2368
         },
         {
-          "type": "text",
-          "align": "left",
-          "fontSize": 20,
-          "color": "#00e622",
-          "opacity": 100,
-          "style": "outline",
-          "rotation": 0,
-          "text": "3.短火(水)DB + 水(火)方塊準備判定\n   火D往左前方移動\n   火H往左方移動\n   火T照圖上站",
-          "stroke": "#40352c",
-          "x": -235,
-          "y": 198,
-          "id": 2369
-        },
-        {
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
@@ -2148,8 +2076,8 @@
           "height": 32,
           "opacity": 100,
           "rotation": 0,
-          "x": -283,
-          "y": 46,
+          "x": -199,
+          "y": -166,
           "id": 2372
         },
         {
@@ -2233,20 +2161,6 @@
           "type": "text",
           "align": "center",
           "fontSize": 25,
-          "color": "#00e622",
-          "opacity": 100,
-          "style": "outline",
-          "rotation": 0,
-          "text": "火H往左",
-          "stroke": "#40352c",
-          "x": -355,
-          "y": 44,
-          "id": 2384
-        },
-        {
-          "type": "text",
-          "align": "center",
-          "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
           "style": "outline",
@@ -2262,8 +2176,8 @@
           "color": "#fc972b",
           "opacity": 35,
           "radius": 50,
-          "x": -282,
-          "y": 43,
+          "x": -172,
+          "y": -167,
           "id": 2387
         },
         {
@@ -2288,10 +2202,10 @@
           "opacity": 100,
           "style": "outline",
           "rotation": 0,
-          "text": "情況二\n火Debuff觸發鋼鐵\n火元素觸發月環",
+          "text": "情況二\n火Debuff觸發鋼鐵\n     (人群一起吃沒問題)\n火元素觸發月環",
           "stroke": "#40352c",
-          "x": 305,
-          "y": 368,
+          "x": 291,
+          "y": 353,
           "id": 2391
         },
         {
@@ -2304,8 +2218,8 @@
           "name": "混沌の炎",
           "iconId": 215902,
           "maxStacks": 0,
-          "x": 307,
-          "y": 403,
+          "x": 269,
+          "y": 404,
           "id": 2393
         },
         {
@@ -2321,6 +2235,20 @@
           "x": 102,
           "y": -15,
           "id": 2440
+        },
+        {
+          "type": "text",
+          "align": "left",
+          "fontSize": 20,
+          "color": "#00e622",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "3.短火(水)DB + 水(火)方塊準備判定\n   火D往左前方移動\n   火H跟人群站\n   火T照圖上站",
+          "stroke": "#40352c",
+          "x": -234,
+          "y": 194,
+          "id": 3016
         }
       ]
     },
@@ -2546,8 +2474,8 @@
           "height": 32,
           "opacity": 100,
           "rotation": 0,
-          "x": -278,
-          "y": 43,
+          "x": -182,
+          "y": -173,
           "id": 2419
         },
         {
@@ -2605,20 +2533,6 @@
           "x": -223,
           "y": 358,
           "id": 2426
-        },
-        {
-          "type": "text",
-          "align": "center",
-          "fontSize": 25,
-          "color": "#00e622",
-          "opacity": 100,
-          "style": "outline",
-          "rotation": 0,
-          "text": "火H 保持不動",
-          "stroke": "#40352c",
-          "x": -344,
-          "y": 83,
-          "id": 2431
         },
         {
           "type": "text",
@@ -2898,8 +2812,8 @@
           "height": 34,
           "opacity": 100,
           "rotation": 0,
-          "x": -261,
-          "y": 100,
+          "x": -159,
+          "y": -179,
           "id": 2523
         },
         {
@@ -3223,8 +3137,8 @@
           "height": 34,
           "opacity": 100,
           "rotation": 0,
-          "x": -280,
-          "y": 62,
+          "x": -194,
+          "y": -170,
           "id": 2612
         },
         {
@@ -3563,8 +3477,8 @@
           "height": 32,
           "opacity": 100,
           "rotation": 0,
-          "x": -280,
-          "y": 63,
+          "x": -176,
+          "y": -164,
           "id": 2650
         },
         {
@@ -3935,8 +3849,8 @@
           "height": 32,
           "opacity": 100,
           "rotation": 0,
-          "x": -280,
-          "y": 63,
+          "x": -171,
+          "y": -167,
           "id": 2773
         },
         {
@@ -4035,8 +3949,8 @@
           "color": "#fc972b",
           "opacity": 35,
           "radius": 50,
-          "x": -278,
-          "y": 64,
+          "x": -174,
+          "y": -169,
           "id": 2781
         },
         {
@@ -4054,20 +3968,6 @@
           "id": 2782
         },
         {
-          "type": "text",
-          "align": "left",
-          "fontSize": 25,
-          "color": "#ff0000",
-          "opacity": 100,
-          "style": "outline",
-          "rotation": 0,
-          "text": "情況二\n火Debuff觸發鋼鐵\n火元素觸發月環",
-          "stroke": "#40352c",
-          "x": 314,
-          "y": 362,
-          "id": 2785
-        },
-        {
           "opacity": 100,
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215902_hr1.tex?format=png",
@@ -4077,9 +3977,23 @@
           "name": "混沌の炎",
           "iconId": 215902,
           "maxStacks": 0,
-          "x": 317,
-          "y": 395,
+          "x": 266,
+          "y": 400,
           "id": 2786
+        },
+        {
+          "type": "text",
+          "align": "left",
+          "fontSize": 25,
+          "color": "#ff0000",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "情況二\n火Debuff觸發鋼鐵\n     (人群一起吃沒問題)\n火元素觸發月環",
+          "stroke": "#40352c",
+          "x": 292,
+          "y": 352,
+          "id": 3017
         }
       ]
     },
